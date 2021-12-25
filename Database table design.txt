@@ -1,0 +1,38 @@
+Database table design
+
+content
+-id
+-catid
+-subcatid
+-title
+-content
+-url
+-createdate
+-publishdate
+-featuredimage
+-userid
+
+users
+-id
+-name
+-email
+-password
+-active
+-role
+
+category
+-id
+-categoryname
+-category description
+-category image
+
+subcat
+-id
+-catid
+-category name
+-category description
+-category image
+
+settings
+-name
+-value
